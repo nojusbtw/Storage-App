@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables (SECURITY RISK if pushed)
+.env
+.env.*
+!.env.example
+
+# Server storage/uploads
+server/storage/*
+!server/storage/.gitkeep
+
+# General Logs
+logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
